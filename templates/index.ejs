@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        html,body{
+            background-color: blanchedalmond;
+        }
+        h1{
+            text-decoration: underline;
+            color:green
+            
+        }
+    </style>
+    <h1 class="title">Weather App</h1>
+    <form action="/weather" method="post">
+        <input type="text" name="city" placeholder="Enter a city" required>
+        <button type="submit">Get Weather</button>
+    </form>
+
+
+    <a href="/weather-list">View Weather Data List</a>
+</body>
+</html>
